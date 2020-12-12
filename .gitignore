@@ -1,2 +1,5 @@
 *.jpg
 *.png
+*.rtf
+/jquery.js
+/bootstrap.min.js
