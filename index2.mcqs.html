@@ -11,8 +11,12 @@
     <div class="main-tab">
         <h1>exam</h1>
         <h3 id="attempt-qst">attempt questions</h3>
-        <div id="main-qst">
-            <input type="radio" name="q1"><label id="label1"></label>
+        <div id="div-mcq">
+            <h3 id="question"></h3>
+            <input type="radio" name="q1"><label id="label1"></label><br>
+            <input type="radio" name="q1"><label id="label2"></label><br>
+            <input type="radio" name="q1"><label id="label3"></label><br>
+            <input type="radio" name="q1"><label id="label4"></label>
         </div>
         <button id="previous"> Previous</button>
         <button type="submit" id="sub">submit</button>
@@ -32,8 +36,17 @@ $(document).ready(function(){
 })
 </script>
 <script>
-    var rad=["q1","a","b","c","d","correct"];
-            $("#label1").text(rad[0]);
+    var rad=["q1",
+                "a",
+                "b",
+                "c",
+                "d",
+                "correct"];
+             $("#question").text(rad[0]);
+             $("#label1").text(rad[1]);
+             $("#label2").text(rad[2]);
+             $("#label3").text(rad[3]);
+             $("#label4").text(rad[4]);
 
 
 
