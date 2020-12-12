@@ -13,14 +13,22 @@
         </div>
         
         <div class="form-div">
-            <form>
-                
+            <form name="form1" class="mcq" id="mcq">
+                <h4>Q.1who is the president of pakistan</h4><br>
+              <label for="ch1"><input type="radio" name="q1" id="ch1" value="q1v1"> Asif Zrdari</label><br>
+              <label for="ch2"><input type="radio" name="q1" id="ch2" value="q1v2"> Nawaz Sharif</label><br>
+              <label for="ch3"><input type="radio" name="q1" id="ch3" value="q1v3"> Shujat Hussain</label><br>
+              <label for="ch4"><input type="radio" name="q1" id="ch4" value="q1v4"> Arif Alvi</label>
+              
             </form>
         </div>
         
         <div class="button-div">
-            <button type="submit">submit</button>
+            <button form="form1">Previous</button>
+            <button type="submit" form="mcq">submit</button>
+            <button form="form1" >Next</button>
         </div>
+
     
     </div>
 
