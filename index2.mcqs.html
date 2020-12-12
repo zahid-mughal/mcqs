@@ -26,31 +26,39 @@
     <script src="W:\SOFTWARES\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js\bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
-// $("#start").click(function(){
+$("#start").click(function(){
 
-// $(".main-tab").css("display","initial");
-// $("#start").css("display","none");
+$(".main-tab").css("display","initial");
+$("#start").css("display","none");
 
-// })
+})
 
 })
 </script>
 <script>
-    var rad=["q1",
-                "a",
-                "b",
-                "c",
-                "d",
-                "correct"];
-             $("#question").text(rad[0]);
-             $("#label1").text(rad[1]);
-             $("#label2").text(rad[2]);
-             $("#label3").text(rad[3]);
-             $("#label4").text(rad[4]);
+    var qst_lbl=[ 
+         ["q1","a","b","c","d","correct"],
+         ["q2","e","f","g","h","incorrect"]
+         ];
+             $("#question").text(qst_lbl[0][0]);
+             $("#label1").text(qst_lbl[0][1]);
+             $("#label2").text(qst_lbl[0][2]);
+             $("#label3").text(qst_lbl[0][3]);
+             $("#label4").text(qst_lbl[0][4]);
+
+</script>
+<script>
+    $("#next").click(function(){
+        if
+             $("#question").text(qst_lbl[1][0]);
+             $("#label1").text(qst_lbl[1][1]);
+             $("#label2").text(qst_lbl[1][2]);
+             $("#label3").text(qst_lbl[1][3]);
+             $("#label4").text(qst_lbl[1][4]);
 
 
 
-
+    })
 </script>
 
 
