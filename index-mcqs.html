@@ -26,11 +26,30 @@
         <div class="button-div">
             <button form="form1">Previous</button>
             <button type="submit" form="mcq">submit</button>
-            <button form="form1" >Next</button>
+            <button form="form1" class="next-mcq" >Next</button>
         </div>
 
     
     </div>
+<script src="W:\Career\GIT-SMART-C\mcqs\mcqs\jquery.js"></script>
+<script src="W:\SOFTWARES\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js\bootstrap.min.js"></script>
+<script>
+    $(".next-mcq").click(function(){
+        $.ajax({
+                url:"mcq2.html",
+                success:function(response){
+                    $(".form-div").html(response);
+                },
+                error:function(){
+                    alert("error message");
+                }
 
+
+        });
+
+
+
+    });
+</script>
 </body>
 </html>
