@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="W:\Career\GIT-SMART-C\mcqs\mcqs\style2-mcqs.css">
 </head>
 <body>
-    <button id="start"> Start</button>
+    <!-- <button id="start"> Start</button>
     <div class="main-tab">
         <h1>exam</h1>
         <h3 id="attempt-qst">attempt questions</h3>
@@ -21,45 +21,71 @@
         <button id="previous"> Previous</button>
         <button type="submit" id="sub">submit</button>
         <button id="next">next</button>
-    </div>
-    <script src="W:\Career\GIT-SMART-C\mcqs\mcqs\jquery.js"></script>
-    <script src="W:\SOFTWARES\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js\bootstrap.min.js"></script>
-<script>
+    </div> -->
+    <!-- <script src="W:\Career\GIT-SMART-C\mcqs\mcqs\jquery.js"></script>
+    <script src="W:\SOFTWARES\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js\bootstrap.min.js"></script> -->
+<!-- <script>
 $(document).ready(function(){
-$("#start").click(function(){
+// $("#start").click(function(){
 
-$(".main-tab").css("display","initial");
-$("#start").css("display","none");
+// $(".main-tab").css("display","initial");
+// $("#start").css("display","none");
+
+// })
 
 })
-
-})
-</script>
+</script> -->
 <script>
-    var qst_lbl=[ 
-         ["q1","a","b","c","d","correct"],
-         ["q2","e","f","g","h","incorrect"]
+     
+    var qst_lbl= [
+                ["q1 ","a","b","c","d","correct"],
+                ["q2","e","f","g","h","incorrect"]
          ];
-             $("#question").text(qst_lbl[0][0]);
-             $("#label1").text(qst_lbl[0][1]);
-             $("#label2").text(qst_lbl[0][2]);
-             $("#label3").text(qst_lbl[0][3]);
-             $("#label4").text(qst_lbl[0][4]);
-
+        //  var a =qst_lbl
+            // document.getElementById("question").innerHTML= qst_lbl[0][0].toString();
+            //  $("#label1").text(qst_lbl[0][1]);
+            //  $("#label2").text(qst_lbl[0][2]);
+            //  $("#label3").text(qst_lbl[0][3]);
+            //  $("#label4").text(qst_lbl[0][4]);
+         var a = qst_lbl.indexOf("a");
+         console.log(qst_lbl[11])
 </script>
-<script>
-    $("#next").click(function(){
-        if
-             $("#question").text(qst_lbl[1][0]);
-             $("#label1").text(qst_lbl[1][1]);
-             $("#label2").text(qst_lbl[1][2]);
-             $("#label3").text(qst_lbl[1][3]);
-             $("#label4").text(qst_lbl[1][4]);
+<!-- <script>
+    // $("#next").click(function(){
+         
+    //     if(document.getElementById("question").innerHTML == 'qst_lbl[0][0].toString()'){
+    //     //    if(qst_lbl.indexOf("q1")=){
+    //          $("#question").text(qst_lbl[1][0]);
+    //          $("#label1").text(qst_lbl[1][1]);
+    //          $("#label2").text(qst_lbl[1][2]);
+    //          $("#label3").text(qst_lbl[1][3]);
+    //          $("#label4").text(qst_lbl[1][4]);
+    //     }
+        // else if(document.getElementById("question").text="qst_lbl[1][0]"){
+
+        //     $("#question").text(qst_lbl[0][0]);
+        //      $("#label1").text(qst_lbl[0][1]);
+        //      $("#label2").text(qst_lbl[0][2]);
+        //      $("#label3").text(qst_lbl[0][3]);
+        //      $("#label4").text(qst_lbl[0][4]);
+
+
+        // }
+
+    //         else{
+    //             alert("else");
+    //         }
 
 
 
-    })
-</script>
+
+
+
+
+
+
+    // })
+</script> -->
 
 
 
