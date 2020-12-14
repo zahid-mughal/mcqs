@@ -1,9 +1,9 @@
-const daysEl = document.getElementById("days");
+//const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "15 Dec 2020";
+const newYears = "20 Dec 2020";
 
 function countdown() {
     const newYearsDate = new Date(newYears);
@@ -16,10 +16,10 @@ function countdown() {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    daysEl.innerHTML = days;
+    //daysEl.innerHTML = days;
     hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
+    minsEl.innerHTML = ":"+formatTime(mins);
+    secondsEl.innerHTML = ":"+formatTime(seconds);
 }
 
 function formatTime(time) {
