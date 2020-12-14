@@ -69,10 +69,10 @@ function show(count){
     // question.innerHTML="<h2>"+questions[count].question+"</h2>";
     question.innerHTML=`<h2>${questions[count].question}</h2>
                         <ul class="option_group"> 
-                        <option class="option">1</option>
-                        <option class="option">2</option>
-                        <option class="option">3</option>
-                        <option class="option">4</option> 
+                        <option class="option">${questions[count].options[0]}</option>
+                        <option class="option">${questions[count].options[1]}</option>
+                        <option class="option">${questions[count].options[2]}</option>
+                        <option class="option">${questions[count].options[3]}</option> 
                         </ul>
     `;
 }
