@@ -22,6 +22,7 @@
     grid-auto-rows: 60px auto;
   
     border-radius: 8px;
+    margin-top: -40px;
 }
 .quiz_header{
     background-color: white;
@@ -65,4 +66,27 @@
 .option:hover{
     cursor: pointer;
     border: 2px solid black;
+}
+.btn-next{
+    background-color: blue;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    box-shadow: 4px 4px 1px black;
+    outline: none;
+    transition: .5s all;
+
+
+}
+.btn-next:hover{
+    border: none;
+    outline: none;
+    cursor: pointer;
+   background-color: white;
+   color: black;
+   box-shadow:  4px 4px  5px black ;
+
+
+
+
 }
