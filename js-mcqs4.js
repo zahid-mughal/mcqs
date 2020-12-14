@@ -20,9 +20,14 @@ let questions =[
         answer: "Keyboard",
        
      //4th object
-        options:[ "Monitor",
+        options:[ 
+                 //1st index of array option   
+                  "Monitor",
+                  //2nd index of array option
                   "Headphone",
+                  //3rd index of array option
                   "LCD",
+                  //4th index of array option
                   "Keyboard"
                 ]
 
@@ -62,5 +67,12 @@ function next(){
 function show(count){
     let question=document.getElementById("questions");
     // question.innerHTML="<h2>"+questions[count].question+"</h2>";
-    question.innerHTML=`<h2>${questions[count].question}</h2>`;
+    question.innerHTML=`<h2>${questions[count].question}</h2>
+                        <ul class="option_group"> 
+                        <option class="option">1</option>
+                        <option class="option">2</option>
+                        <option class="option">3</option>
+                        <option class="option">4</option> 
+                        </ul>
+    `;
 }
