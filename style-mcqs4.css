@@ -9,14 +9,48 @@ body{
 .wrapper{
     width: 100vw;
     height: 100vh;
+    background-color: blue;
     display: flex;
    justify-content: center;
    align-items: center;
-   
-   
-
 }
 
 /* .he{
     font-family: 'Nunito Sans', sans-serif;
+}
+*/
+.welcome_text{
+    /* background-color: blue; */
+    width: 400px;
+    padding: 5px;
+}
+.welcome_form input,
+.welcome_form button
+{
+    display: block;
+    width: 100%;
+}
+.welcome_form input{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid white ;
+    outline: none;
+    text-align: center;
+    font-size: 40PX;
+    
+}
+.welcome_text button{
+    font-size: 30px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    color: rgb(203, 96, 230);
+    border-radius: 50px;
+    outline: none;
+    transition: .5s all;
+}
+.welcome_text button:hover{
+    transform: translateY(-5PX);
+    
 }
