@@ -43,7 +43,7 @@ body{
     border: 1px solid black;
     border-radius: 50px;
 }
-#btn0:hover, #btn1:hover, #btn1:hover, #btn3:hover{
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
     cursor: pointer;
     background-color: yellowgreen;
 
